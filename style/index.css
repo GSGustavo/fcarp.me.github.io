@@ -132,6 +132,18 @@ header h2 {
 
 /* FOOTER */
 
+footer {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+}
 
+footer p {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    margin: auto;
+}
 
 /* FOOTER */
