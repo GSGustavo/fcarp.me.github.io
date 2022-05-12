@@ -24,7 +24,7 @@
         <section id="body">
             <h3>LOGIN</h3>
             <div id="formlogin">
-                <form action="/controllers/Login.php" method="post" class="centro">
+                <form method="post" class="centro">
                     <div>
                         <div>
                             <div class="campsinputs">
@@ -52,11 +52,20 @@
                                     ENTRAR
                                 </div>
                             </label>
-                            <button style="display: none;" type="submit" id="entrar"></button>
+                            <button style="display: none;" type="submit" name="entrar" id="entrar"></button>
                         </div>
                         <!-- BOTÃO DE ENTRAR -->
                     </div>
                 </form>
+
+                <?php
+
+                se o botao foi clicado
+
+                enviar as vars
+
+                ?>
+
             </div>
 
             <div class="txtpadrao" id="tips">
