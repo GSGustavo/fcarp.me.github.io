@@ -64,7 +64,7 @@
                 $senha = !isset($_POST['senha']);
 
                 if ($login == '1234' or $senha == '1') {
-                    echo "<div id='vazio' style='margin: 10px auto;width: 300px; text-align: center;' class='alert alert-danger'>Login ou Senha inválidos</div>";
+                    echo "<div id='vazio' style='margin: 0px auto 20px auto;width: 300px; text-align: center;' class='alert alert-danger'>Login ou Senha inválidos</div>";
                 }
                 ?>
 
